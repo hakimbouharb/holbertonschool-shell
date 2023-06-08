@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -maxdepth 1 -name "*.html" -newer ../ -exec cp -u {} ../ \;
+rsync -av --ignore-existing --update --exclude='*/' --include='*.html' --exclude='*' ./ ../
+
