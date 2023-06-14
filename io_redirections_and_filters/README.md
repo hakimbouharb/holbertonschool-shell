@@ -1,2 +1,2 @@
-#!/bin/bash
-this readme file is for the project
+#!/bin/bash 
+this README me file is used i this project 
